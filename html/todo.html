@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Konva Free Drawing Demo</title>
+    <link rel="stylesheet" type="text/css" href="../css/todo.css">
+  </head>
+
+  <body>
+    <form>
+      <select id="tool">
+	<option value="brush">Brush</option>
+	<option value="eraser">Eraser</option>
+      </select>
+      <select id="brush-colour">
+      </select>
+      <input id="clear-btn" type="button" value="Clear Everything">
+      <input id="inspiration-btn" type="button" value="I need inspiration">
+    </form>
+
+    <div id="main-container">
+      <div id="container">
+      </div>
+      <img src="../imgs/inspiration.gif"/ id="flying-bulldog" class="center hide">
+    </div>
+
+    <script src="https://unpkg.com/konva@8/konva.min.js"></script>
+    <script type="text/javascript" src="../js/todo.js"></script>
+  </body>
+</html>
